@@ -17,6 +17,13 @@ public class CalculatorTest {
         assertEquals(5, cal.subtract(10, 5));
     }
 
+    @Test
+    public void fifteenDividedByThreeShouldBeFive() {
+        var cal = new Calculator();
+        assertEquals(5, cal.divide(15, 3), 0.01);
+    }
+
+
 
 
 }
