@@ -23,6 +23,12 @@ public class CalculatorTest {
         assertEquals(5, cal.divide(15, 3), 0.01);
     }
 
+    @Test
+    public void fourMultipliedByFiveShouldBeTwenty() {
+        var cal = new Calculator();
+        assertEquals(20, cal.multiply(4, 5), 0.01);
+    }
+
 
 
 
