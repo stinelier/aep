@@ -11,6 +11,12 @@ public class CalculatorTest {
         assertEquals(7, addition.add(5, 2));
     }
 
+    @Test
+    public void tenMinusFiveShouldBeFive() {
+        var cal = new Calculator();
+        assertEquals(5, cal.subtract(10, 5));
+    }
+
 
 
 }
