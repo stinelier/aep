@@ -35,11 +35,13 @@ public class CalculatorTest {
         assertEquals(20, cal.multiply(4, 5), 0.01);
     }
 
-    @Test
-    public void twentyDividedByOneHundredShouldBeTwentyPercent() {
-        var cal = new Calculator();
-        assertEquals(20, cal.percentage(20, 100), 0.01);
-    }
+//    @Test
+//    public void twentyDividedByOneHundredShouldBeTwentyPercent() {
+//        var cal = new Calculator();
+//        assertEquals(20, cal.percentage(20, 100), 0.01);
+//    }
+
+
 
 
 
