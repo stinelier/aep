@@ -40,11 +40,11 @@ public class CalculatorTest {
         var cal = new Calculator();
         assertEquals(20, cal.percentage(20, 100), 0.01);
     }
-
-
-
-
-
+    @Test
+    public void fiveModulusFourShouldBeOne() {
+        var cal = new Calculator();
+        assertEquals(1, cal.modulus(5,4));
+    }
 
 
 

@@ -28,6 +28,12 @@ public class Calculator {
         return res;
     }
 
+    public int modulus(int num1, int num2){
+        result = num1 % num2;
+        return result;
+
+    }
+
 
 }
 
