@@ -23,10 +23,10 @@ public class Calculator {
         return result;
     }
 
-//    public float percentage(float num1, float num2){
-//        res = (num1/num2)*100;
-//        return res;
-//    }
+    public float percentage(float num1, float num2){
+        res = (num1/num2)*100;
+        return res;
+    }
 
 
 }
