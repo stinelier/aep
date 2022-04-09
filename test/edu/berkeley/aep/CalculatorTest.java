@@ -52,6 +52,16 @@ public class CalculatorTest {
         assertEquals(15, cal.add(cal.multiply(2,5),5));
     }
 
+    @Test
+    public void minusFiveMultipliedByMinusFiveShouldBeTwentyFive() {
+        var cal = new Calculator();
+        assertEquals(25, cal.multiply(-5, -5));
+    }
+
+
+
+
+
 
 
 
