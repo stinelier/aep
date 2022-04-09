@@ -46,6 +46,13 @@ public class CalculatorTest {
         assertEquals(1, cal.modulus(5,4));
     }
 
+    @Test
+    public void fivePlusTwoMultipliedByFiveShouldBeFifteen() {
+        var cal = new Calculator();
+        assertEquals(15, cal.add(cal.multiply(2,5),5));
+    }
+
+
 
 
 }
